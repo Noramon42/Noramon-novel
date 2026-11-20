@@ -1,0 +1,152 @@
+
+<!DOCTYPE html>
+<html lang="th">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>นรมน | โลกแห่งนิยายรัก</title>
+
+    <style>
+        body {
+            margin: 0;
+            font-family: Tahoma, sans-serif;
+            background: #fffaf8;
+            color: #51413f;
+        }
+
+        header {
+            background: white;
+            padding: 25px;
+            text-align: center;
+            border-bottom: 1px solid #f3e5e2;
+        }
+
+        header h1 {
+            color: #b77d83;
+            font-size: 32px;
+            margin: 0;
+        }
+
+        header p {
+            color: #999;
+        }
+
+        nav {
+            text-align: center;
+            padding: 15px;
+            background: #f9eeee;
+        }
+
+        nav a {
+            color: #8e6268;
+            text-decoration: none;
+            margin: 0 15px;
+        }
+
+        .welcome {
+            text-align: center;
+            padding: 65px 20px;
+            background: #f7e9e8;
+        }
+
+        .welcome h2 {
+            font-size: 30px;
+            color: #9d646d;
+        }
+
+        .welcome p {
+            font-size: 17px;
+        }
+
+        .books {
+            padding: 35px 20px;
+            text-align: center;
+        }
+
+        .book-list {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 25px;
+        }
+
+        .book {
+            background: white;
+            width: 230px;
+            padding: 20px;
+            border-radius: 12px;
+            box-shadow: 0 3px 15px #eadcda;
+        }
+
+.cover {
+    width: 100%;
+    height: 320px;
+    object-fit: contain;
+    background: #fff;
+    border-radius: 8px;
+    display: block;
+}
+
+
+        .book h3 {
+            color: #a66e76;
+        }
+
+        footer {
+            text-align: center;
+            padding: 25px;
+            background: #f9eeee;
+            color: #98777a;
+        }
+    </style>
+</head>
+
+<body>
+
+    <header>
+        <h1>นรมน</h1>
+        <p>โลกแห่งความรักและเรื่องราวที่ไม่มีวันลืม</p>
+    </header>
+
+    <nav>
+        <a href="#">หน้าแรก</a>
+        <a href="#books">นิยายทั้งหมด</a>
+        <a href="#about">เกี่ยวกับนักเขียน</a>
+    </nav>
+
+    <section class="welcome">
+        <h2>ยินดีต้อนรับสู่โลกนิยายของนรมน</h2>
+        <p>ทุกเรื่องราวมีความรัก และทุกความรักมีเรื่องราว</p>
+    </section>
+
+    <section class="books" id="books">
+        <h2>นิยายของฉัน</h2>
+
+        <div class="book-list">
+
+            <div class="book">
+<img src="images/บ่วงรัก.png"
+     alt="ปกนิยายบ่วงรัก"
+  class="cover">
+                <h3>บ่วงรัก</h3>
+                <p>รักแรกที่จบไม่ลง</p>
+            </div>
+
+            <div class="book">
+            <img src="images/สถานะเมียแต่ง.png"
+     alt="ปกนิยายสถานะเมียแต่ง"
+     class="cover">
+                <h3>สถานะเมียแต่ง</h3>
+                <p>เมื่อหัวใจต้องแต่งงานกับคนที่ไม่รัก</p>
+            </div>
+
+        </div>
+    </section>
+
+    <footer id="about">
+        <p>นรมน | นักเขียนนิยายรักและดราม่า</p>
+        <p>© 2026 Noramon Novel</p>
+    </footer>
+
+</body>
+</html>
